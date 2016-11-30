@@ -44,7 +44,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             int launch = 0; // init the launch so the exe will not run unless all conditions are working
-            string usCode = "IL"; // US is the USA country code - this param is for checking against the recieved country code
+            string usCode = "US"; // US is the USA country code - this param is for checking against the recieved country code
             //to see the program is fully working in israel change the usCode parameter to IL or to whatever country code you are at
 
             string s = CityStateCountByIp();
